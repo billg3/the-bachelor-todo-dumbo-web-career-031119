@@ -94,7 +94,7 @@ def get_average_age_for_season(data, season)
   
    data[season].each do |x|
      x.each do |key,value|
-       
+       if 
      
      ### Build a method, get_average_age_for_season, that takes in two arguments––the data hash and a string of a season. Iterate through the hash and return the average age of all of the contestants for that season.
   
