@@ -93,7 +93,7 @@ def get_average_age_for_season(data, season)
   people = 0 
   
    data[season].each do |x|
-     
+     x.each
      
       
   
