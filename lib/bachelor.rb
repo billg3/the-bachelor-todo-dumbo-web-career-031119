@@ -87,9 +87,9 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
-   data.each do |season, hash|
-    hash.each do |x|
-      x.each do |key, value|
+   data.each do |seasons, hash|
+    if  seasons == season do |x|
+      
   
   
   
